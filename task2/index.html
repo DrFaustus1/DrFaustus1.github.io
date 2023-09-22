@@ -4,12 +4,25 @@
 
 <head>
    <meta charset="UTF-8">
-    <title>Задание 1</title>
+    <link rel="stylesheet" href="style.css">
+   <title>Задание 1</title>
+
 </head>
 
 <body>
-<h1>Task N1</h1>
-<section class = "link">
+    <header class="header">
+        <nav class="gey">
+            <a href="#list">Ссылки</a>
+            <a href="#table">Таблица</a>
+            <a href="#form">Форма</a>
+
+        </nav>
+
+
+    </header>
+    
+
+<section class = "content" id = "list">
    <ul class ="link list">
         <li>
             <a href = "http://www.kubsu.ru/" title = "Официальный сайт КубГУ">КубГУ</a>
@@ -87,11 +100,11 @@
         <li>title</li>
 
     </ol>
-    <a href = ftp://drfaust:12345@AsusPC/">Ссылка на ftp сервер с авторизацией</a>
+    <a href = "ftp://drfaust:12345@AsusPC/">Ссылка на ftp сервер с авторизацией</a>
 </section>
     <h1>Форма</h1>
 
-    <form action="index.html">
+    <form action="index.html" class="form" id="form">
         <label>
             ФИО:
             <br>
