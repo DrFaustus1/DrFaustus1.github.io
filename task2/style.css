@@ -1,4 +1,27 @@
-.gey{
+.header{
     width: 100%;
     background-color: #74992e;
+    min-height: 120px;
+    padding: 15px;
+}
+.header-content{
+    margin: 50px;
+    height: 120px;
+    margin-bottom: 10%;
+    background-color: #85b252;
+}
+.pre-header{
+    float: right;
+    margin-right: 35px;
+}
+.cartinka{
+    float:left;
+    width: 1%;
+    min-height: 100px;
+    min-width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.name{
+    padding-top: 30%;
 }
