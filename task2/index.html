@@ -21,7 +21,9 @@
         </nav>
       
         <img src="html1.png" class="cartinka">
+        
         <span class="name">Задание 2</span>
+    
     </div>
       
         
@@ -29,7 +31,8 @@
     
 
 <section class = "content" id = "list">
-   <ul class ="link list">
+   
+    <ul class ="link-list" >
         <li>
             <a href = "http://www.kubsu.ru/" title = "Официальный сайт КубГУ">КубГУ</a>
        </li>
@@ -99,18 +102,32 @@
         </li>
    </ul>
 
-    <ol>
-        <li>title</li>
-        <li>title</li>
-        <li>title</li>
-        <li>title</li>
+    <ol class="link-list">
+        <li><a href="https://example.com">Это ссылка</a></li>
+        <li><a href="https://example.com">И еще ссылка</a></li>
+        <li><a href="https://example.com">Еще одна</a></li>
+    
 
     </ol>
-    <a href = "ftp://drfaust:12345@AsusPC/">Ссылка на ftp сервер с авторизацией</a>
-</section>
-    <h1>Форма</h1>
+    <a href = "ftp://drfaust:12345@AsusPC/" class="link-list">Ссылка на ftp сервер с авторизацией</a>
 
-    <form action="index.html" class="form" id="form">
+</section>
+
+<section class="content">
+    <h1>Таблица</h1>
+    <table>
+        <tr class="tabl-first"><th>Колонна 1</th><th>Колонна 2</th><th>Колонна 3</th><th>Колонна 4</th></tr>
+        <tr class="tabl-second"><td>Ячейка 11</td><td>Ячейка 12</td><td>Ячейка 13</td><td>Ячейка 14</td></tr>    
+        <tr class="tabl-first"><td>Ячейка 21</td><td>Ячейка 22</td><td>Ячейка 23</td><td>Ячейка 24</td></tr>
+        <tr class="tabl-second"><td>Ячейка 31</td><td>Ячейка 32</td><td>Ячейка 33</td><td>Ячейка 34</td></tr>
+        <tr class="tabl-first"><td>Ячейка 41</td><td>Ячейка 42</td><td>Ячейка 43</td><td>Ячейка 44</td></tr>
+        <tr class="tabl-second"><td colspan="4">Ячейки 51 52 53 54</td></tr>
+    </table>
+
+</section>    
+
+    <form action="index.html" class="content" id="form">
+        <h1>Форма</h1>
         <label>
             ФИО:
             <br>
@@ -181,6 +198,11 @@
         </label>
     </form>
 
+    <span class="footer">
+        <br>
+        (с) Ткаченко Максим
+    
+    </span>
 
 
 
