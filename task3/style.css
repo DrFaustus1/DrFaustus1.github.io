@@ -42,17 +42,16 @@ html, body {
 }
 .flex-item1{
     order: 2;
-
+    max-width:100px; 
     
 }
 .flex-item2{
     order: 3;
-
-    
+    max-width:100px; 
 }
 .flex-item3{
     order:1;
-
+    max-width:100px; 
     
 }
 .cartinka{
