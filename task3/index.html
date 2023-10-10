@@ -5,34 +5,32 @@
 <head>
    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-   <title>Задание 1</title>
+   <title>Задание 3</title>
 
 </head>
 
 
 <body>
     <header class="header">    
-    <div class ="header-content">
-        
-        <nav class="pre-header">
-            <a href="#list" class="idk">Ссылки</a>
-            <a href="#table" class="idk">Таблица</a>
-            <a href="#form" class="idk">Форма</a>
-        </nav>
-      
-        <img src="html1.png" class="cartinka">
-        
-        <div class="name">Задание 2</div>
     
-    </div>
-      
+        <div class ="header-content">
         
+        <img src="html1.png" class="cartinka">
+        <div class="name">Задание 3</div>
+    
+        </div>    
     </header>
     
-
+    <div class="flex-box">
+            <nav class="pre-header">
+                <a href="#list" class="idk">Ссылки</a>
+                <a href="#table" class="idk">Таблица</a>
+                <a href="#form" class="idk">Форма</a>
+            </nav>
+    
 <section class = "content" id = "list">
    
-    <ul class ="link-list" >
+    <ul class ="link-list flex-item1" >
         <li>
             <a href = "http://www.kubsu.ru/" title = "Официальный сайт КубГУ">КубГУ</a>
        </li>
@@ -113,9 +111,9 @@
 
 </section>
 
-<section class="content">
+<section class="content flex-item2">
     <h1>Таблица</h1>
-    <table>
+    <table id ="table">
         <tr class="tabl-first"><th>Колонна 1</th><th>Колонна 2</th><th>Колонна 3</th><th>Колонна 4</th></tr>
         <tr class="tabl-second"><td>Ячейка 11</td><td>Ячейка 12</td><td>Ячейка 13</td><td>Ячейка 14</td></tr>    
         <tr class="tabl-first"><td>Ячейка 21</td><td>Ячейка 22</td><td>Ячейка 23</td><td>Ячейка 24</td></tr>
@@ -126,7 +124,7 @@
 
 </section>    
 
-    <form action="index.html" class="content" id="form">
+    <form action="index.html" class="content flex-item3" id="form">
         <h1>Форма</h1>
         <label>
             ФИО:
@@ -197,6 +195,7 @@
             <input type="submit" value="Сохранить">
         </label>
     </form>
+</div>
     <footer class="footer" id = "footer">
     <span>
         <br>
