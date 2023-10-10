@@ -73,10 +73,14 @@ li{
 .idk{
     color:#c36f31;
 }
-@media screen and(max-width: 769px){
-
+@media screen and(max-width: 780px){
     .header{
-        flex-direction: row;
-        align-items:center;
+        width: 100%;
+        background-color: #74992e;
+        min-height: 50px;
+        padding-top: 15px;
+        padding-bottom: 65px;
+        align-items: center;
     }
+
 }
