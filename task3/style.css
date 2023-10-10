@@ -42,15 +42,15 @@ html, body {
 }
 .flex-item1{
     min-width:960px;
-    order: 2;
+    order: 3;
 }
 .flex-item2{
     min-width:960px;
-    order: 1;
+    order: 2;
 }
 .flex-item3{
     min-width:960px;
-    order:3;
+    order:1;
 }
 .cartinka{
     float:left;
