@@ -1,6 +1,106 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: #739c26;
+    min-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 65px;
 
+}
+.header-content{
+    display: flex;
+    margin-top: 50px;
+    height: 120px;
+    background-color: #85b252;
+}
+.flex-box{
+    display:flex;
+    flex-direction: column;
+}
+.pre-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-top:45px;
+    margin-bottom:45px;
+    margin-left: 435px;
+    
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 990px;
+    font-size: xx-large;
+    color: #6C5B7B;
+    background-color: #355C7D;
+}
+.flex-item1{
+    min-width:960px;
+    order: 2;
+}
+.flex-item2{
+    min-width:960px;
+    order: 1;
+}
+.flex-item3{
+    min-width:960px;
+    order:3;
+}
+.cartinka{
+    float:left;
+    width: 1%;
+    min-height: 100px;
+    min-width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.name{
+    padding-top:45px;
+    padding-left:3%;
+    font-size:larger;
+}
+.content{
+    
+    max-width: 960px;
+    background-color: #eaf1e2;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 1%;
+}
+.tabl-first{
+    color: #b7bf5e;
+    padding: 5px;
+    background-color:#c36f31;
+}
+.tabl-second{
+    color:#c36f31;
+    padding: 5px;
+    background-color: #b7bf5e;
+}
+.link-list{
+    margin: 20px;
+}
+li{
+    list-style-type: none;
+}
+.footer {
+    width: 100%;
+    background-color: #669a2a;
+    min-height: 60px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.idk{
+    color:#c36f31;
+}
 
-@media screen{
+@media screen and (min-width:769px){
     html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -32,15 +132,13 @@
         flex-direction: row;
         justify-content: space-around;
         
-        margin-right: 480px;
         margin-top:45px;
         margin-bottom:45px;
-        margin-left:480px;
+        margin-left: 435px;
         
-        padding-left:7vh;
-        padding-right:7vh;
-        padding-bottom: 2vh;
-        padding-top: 2vh;
+        padding-top:10px;
+        padding-bottom: 10px;
+        width: 990px;
         font-size: xx-large;
         color: #6C5B7B;
         background-color: #355C7D;
@@ -64,7 +162,7 @@
     }
     .name{
         padding-top:45px;
-        padding-left:10%;
+        padding-left:3%;
         font-size:larger;
     }
     .content{
@@ -74,7 +172,6 @@
         margin: 0 auto;
         margin-top: 1%;
         padding: 1%;
-        
     }
     .tabl-first{
         color: #b7bf5e;
