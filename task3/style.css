@@ -41,16 +41,19 @@ html, body {
     background-color: #355C7D;
 }
 .flex-item1{
+    order: 2;
     min-width:960px;
-    order: 3;
+    
 }
 .flex-item2{
+    order: 3;
     min-width:960px;
-    order: 2;
+    
 }
 .flex-item3{
-    min-width:960px;
     order:1;
+    min-width:960px;
+    
 }
 .cartinka{
     float:left;
