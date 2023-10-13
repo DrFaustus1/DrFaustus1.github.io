@@ -3,7 +3,8 @@
 
 
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
    <title>Задание 3</title>
 
@@ -22,15 +23,15 @@
     </header>
     
     <div class="flex-box">
-            <nav class="pre-header">
+            <nav class="pre-header content">
                 <a href="#list" class="idk">Ссылки</a>
                 <a href="#table" class="idk">Таблица</a>
                 <a href="#form" class="idk">Форма</a>
             </nav>
     
-<section class = "content" id = "list">
+<section class = "content  flex-item1" id = "list">
    
-    <ul class ="link-list flex-item1" >
+    <ul class ="link-list" >
         <li>
             <a href = "http://www.kubsu.ru/" title = "Официальный сайт КубГУ">КубГУ</a>
        </li>
@@ -98,16 +99,20 @@
         <li>
             <a href="http://ya.com" rel="noindex">Ссылка запрещенная для индексации</a>
         </li>
-   </ul>
-
-    <ol class="link-list">
-        <li><a href="https://example.com">Это ссылка</a></li>
-        <li><a href="https://example.com">И еще ссылка</a></li>
-        <li><a href="https://example.com">Еще одна</a></li>
+        <ol class="link-list">
+            <li><a href="https://example.com">Это ссылка</a></li>
+            <li><a href="https://example.com">И еще ссылка</a></li>
+            <li><a href="https://example.com">Еще одна</a></li>
+        
     
+        </ol>
+        <li>
+        <a href = "ftp://drfaust:12345@AsusPC/" class="link-list">Ссылка на ftp сервер с авторизацией</a>
+            </li>
+    
+    </ul>
 
-    </ol>
-    <a href = "ftp://drfaust:12345@AsusPC/" class="link-list">Ссылка на ftp сервер с авторизацией</a>
+
 
 </section>
 

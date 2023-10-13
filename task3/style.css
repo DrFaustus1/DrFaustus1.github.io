@@ -14,44 +14,38 @@ html, body {
     padding-bottom: 65px;
 
 }
+.pre-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 .header-content{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 50px;
     height: 120px;
     background-color: #85b252;
 }
+
 .flex-box{
     display:flex;
     flex-direction: column;
 }
-.pre-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    margin-top:45px;
-    margin-bottom:45px;
-    margin-left: 435px;
-    
-    padding-top:10px;
-    padding-bottom: 10px;
-    width: 990px;
-    font-size: xx-large;
-    color: #6C5B7B;
-    background-color: #355C7D;
-}
+
 .flex-item1{
     order: 2;
-    max-width:100px; 
+    min-width:100%; 
     
 }
 .flex-item2{
-    order: 3;
-    max-width:100px; 
+    order: 1;
+    min-width:100%; 
 }
 .flex-item3{
-    order:1;
-    max-width:100px; 
+    order:3;
+    min-width:100%; 
     
 }
 .cartinka{
@@ -68,11 +62,14 @@ html, body {
     font-size:larger;
 }
 .content{
-    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     max-width: 960px;
     background-color: #eaf1e2;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 5%;
     padding: 1%;
 }
 .tabl-first{
@@ -86,6 +83,9 @@ html, body {
     background-color: #b7bf5e;
 }
 .link-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px;
 }
 li{
@@ -120,7 +120,9 @@ li{
 
     }
     .header-content{
-        display: flex;
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
         margin-top: 50px;
         height: 120px;
         background-color: #85b252;
@@ -136,23 +138,23 @@ li{
         
         margin-top:45px;
         margin-bottom:45px;
-        margin-left: 435px;
         
+
         padding-top:10px;
         padding-bottom: 10px;
-        width: 990px;
         font-size: xx-large;
         color: #6C5B7B;
         background-color: #355C7D;
     }
+
     .flex-item1{
-        min-width:960px;
+        order:1;
     }
     .flex-item2{
-        min-width:960px;
+        order:2;
     }
     .flex-item3{
-        min-width:960px;
+       order:3;
     }
     .cartinka{
         float:left;
@@ -168,8 +170,7 @@ li{
         font-size:larger;
     }
     .content{
-        
-        max-width: 960px;
+        min-width: 960px;
         background-color: #eaf1e2;
         margin: 0 auto;
         margin-top: 1%;
