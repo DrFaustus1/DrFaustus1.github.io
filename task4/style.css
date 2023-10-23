@@ -1,0 +1,205 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: #4682B4;
+    min-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 65px;
+
+}
+.pre-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    height: 120px;
+    background-color: #B0E0E6;
+}
+
+.flex-box{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-item1{
+    order: 2;
+    min-width:100%; 
+    
+}
+.flex-item2{
+    order: 1;
+    min-width:100%; 
+}
+.flex-item3{
+    order:3;
+    min-width:100%; 
+    
+}
+.cartinka{
+    float:left;
+    width: 1%;
+    min-height: 100px;
+    min-width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.name{
+    padding-top:45px;
+    padding-left:3%;
+    font-size:larger;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 960px;
+    background-color: #B0E0E6;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1%;
+}
+.tabl-first{
+    color: #b7bf5e;
+    padding: 5px;
+    background-color:#c36f31;
+}
+.tabl-second{
+    color:#c36f31;
+    padding: 5px;
+    background-color: #b7bf5e;
+}
+.link-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+li{
+    list-style-type: none;
+}
+.footer {
+    width: 100%;
+    background-color: #669a2a;
+    min-height: 60px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.idk{
+    color:#c36f31;
+}
+
+@media screen and (min-width:769px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        width: 100%;
+        background-color: #4682B4;
+        min-height: 50px;
+        padding-top: 15px;
+        padding-bottom: 65px;
+
+    }
+    .header-content{
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 50px;
+        height: 120px;
+        background-color: #B0E0E6;
+    }
+    .flex-box{
+        display:flex;
+        flex-direction: column;
+    }
+    .pre-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        margin-top:45px;
+        margin-bottom:45px;
+        
+
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: xx-large;
+        color: #B0E0E6;
+        background-color: #355C7D;
+    }
+
+    .flex-item1{
+        order:1;
+    }
+    .flex-item2{
+        order:2;
+    }
+    .flex-item3{
+       order:3;
+    }
+    .cartinka{
+        float:left;
+        width: 1%;
+        min-height: 100px;
+        min-width: 100px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .name{
+        padding-top:45px;
+        padding-left:3%;
+        font-size:larger;
+    }
+    .content{
+        min-width: 960px;
+        background-color: #B0E0E6;
+        margin: 0 auto;
+        margin-top: 1%;
+        padding: 1%;
+    }
+    .tabl-first{
+        color: #b7bf5e;
+        padding: 5px;
+        background-color:#c36f31;
+    }
+    .tabl-second{
+        color:#c36f31;
+        padding: 5px;
+        background-color: #b7bf5e;
+    }
+    .link-list{
+        margin: 20px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .footer {
+        width: 100%;
+        background-color: #669a2a;
+        min-height: 60px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .idk{
+        color:#c36f31;
+    }
+}
