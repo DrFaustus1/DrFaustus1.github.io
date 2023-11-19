@@ -1,8 +1,8 @@
 const prices = {
-    "val1": 9999999999999,
-    "val2": 999999999999,
-    "val3": 99999999999,
-    "val4": 9999999999
+    "val1": 30,
+    "val2": 50,
+    "val3": 60,
+    "val4": 40
 }
 
 let setCalculate = (value) => {
