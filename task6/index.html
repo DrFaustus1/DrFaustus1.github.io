@@ -3,42 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание 5</title>
+    <title>Задание 6</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <script src="script.js" defer></script>
-        <div class="flex">
-            <div class="list">
-                <ul>
-                    <ol>Гречка - 30 рублей</ol>
-                    <ol>Макароны - 50 рублей</ol>
-                    <ol>Картошка - 60 рублей</ol>
-                    <ol>Вермишель - 40 рублей</ol>
-                </ul>
+    <main >
+        <div>
+            <div class="flex-box">
+                <div class="list">
+                    <ul>
+                        <ol>Булгур- 30 рублей</ol>
+                        <ol>Рис: обычный - 35 рублей, бурый - 60 рублей</ol>
+                        <ol>Морковь - 23 рубля(очищенная)</ol>
+                    </ul>
+                </div>
+                <div class="calculatorSecond">
+                    <label for="summa-usl">Количество:</label>
+                    <input id="summa-usl" type="text">
+                    <ul class="block-choice">
+                        <ol><input name="r" class="radio-choice" type="radio" value="Булгур">Булгур</ol>
+                        <ol><input name="r" class="radio-choice" type="radio" value="Рис">Рис</ol>
+                        <ol><input name="r" class="radio-choice" type="radio" value="Морковь">Морковь</ol>
+                    </ul>
+                    <div id="add">
+                        <label for="additional">Рис</label>
+                        <select name="additional" id="additional">
+                            <option value="Обычный" selected="selected">Обычный</option>
+                            <option value="Бурый">Бурый</option>
+                        </select>
+                    </div>
+                    <div id="check">
+                        <label id="check_label" value="Очищенная">Очищенная</label>
+                        <input type="checkbox" id="checkbox">
+                    </div>
+                    <div id="result-usl">
+                        0
+                    </div>
+                </div>
             </div>
-            <div class="calculator">
-                <label for="cost">
-                    Количество товара
-                </label>
-                <input id="cost" type="text" name="prodcost">
-                <label for="choice">
-                    Товар: 
-                </label>
-                <select name="choice" id="choice">
-                    <option value="val1">Гречка</option>
-                    <option value="val2">Макароны</option>
-                    <option value="val3">Картошка</option>
-                    <option value="val4">Вермишель</option>
-                </select>
-                <label>
-                    <button id="button">Подсчитать стоимость</button>
-                </label>
-                <div id="result">Стоимость: </div>
+            <section>
+            <div class="flex-box">
+                <div class="list">
+                    <ul>
+                        <ol>Гречка - 30 рублей</ol>
+                        <ol>Макароны - 50 рублей</ol>
+                        <ol>Картошка - 60 рублей</ol>
+                        <ol>Вермишель - 40 рублей</ol>
+                    </ul>
+                </div>
+                <div class="calculatorFirst">
+                    <label for="cost">
+                        Количество товара
+                    </label>
+                    <input id="cost" type="text" name="prodcost">
+                    <label for="choice">
+                        Товар: 
+                    </label>
+                    <select name="choice" id="choice">
+                        <option value="val1">Гречка</option>
+                        <option value="val2">Макароны</option>
+                        <option value="val3">Картошка</option>
+                        <option value="val4">Вермишель</option>
+                    </select>
+                    <label>
+                        <button id="button">Подсчитать стоимость</button>
+                    </label>
+                    <div id="result">Стоимость: </div>
+                </div>
             </div>
+        </section>
         </div>
     </main>
-    
+    <script src="script.js" defer></script>
+    <script src="script_2.js" defer></script>
 </body>
 </html>

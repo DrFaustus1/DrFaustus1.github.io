@@ -7,7 +7,7 @@ const prices = {
 
 let setCalculate = (value) => {
     let res = document.getElementById("result")
-    res.textContent = `${value}`;
+    res.textContent = `Стоимость: ${value}`;
 };
 
 let getCalculate = (cost, select) => {
@@ -33,3 +33,4 @@ document.addEventListener("DOMContentLoaded", (event) =>{
     let a = document.getElementById("button");
     a.addEventListener("click", Submit);
 });
+
