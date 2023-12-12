@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 5</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <script src="script.js" defer></script>
+        <div class="flex">
+            <div class="list">
+                <ul>
+                    <ol>Гречка - 30 рублей</ol>
+                    <ol>Макароны - 50 рублей</ol>
+                    <ol>Картошка - 60 рублей</ol>
+                    <ol>Вермишель - 40 рублей</ol>
+                </ul>
+            </div>
+            <div class="calculator">
+                <label for="cost">
+                    Количество товара
+                </label>
+                <input id="cost" type="text" name="prodcost">
+                <label for="choice">
+                    Товар: 
+                </label>
+                <select name="choice" id="choice">
+                    <option value="val1">Гречка</option>
+                    <option value="val2">Макароны</option>
+                    <option value="val3">Картошка</option>
+                    <option value="val4">Вермишель</option>
+                </select>
+                <label>
+                    <button id="button">Подсчитать стоимость</button>
+                </label>
+                <div id="result">Стоимость: </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
