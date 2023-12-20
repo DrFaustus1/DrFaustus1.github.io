@@ -3,6 +3,7 @@
   }
   body {
     padding: 50px;
+      background-color: cyan;
   }
   .slider__img {
     margin: 250px auto;
